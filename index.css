@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #cfefff; /* azul bem clarinho */
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: black;
+    margin: 0;
+}
+
+/* Área principal */
+.container {
+    position: relative;
+    padding: 40px;
+    min-height: 500px;
+}
+
+/* Imagens pequenas */
+.img-top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+}
+
+.img-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+}
+
+/* Área do meio dividida */
+.middle {
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.text-area {
+    width: 50%;
+    font-size: 18px;
+}
+
+.image-area {
+    width: 50%;
+}
+
+.image-area img {
+    width: 100%;
+    border-radius: 10px;
+}
